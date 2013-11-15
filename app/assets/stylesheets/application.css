@@ -12,3 +12,24 @@
  *= require foundation_and_overrides
  *= require_tree .
  */
+
+
+.resume {
+	font-family:Helvetica;
+}
+
+h2 {
+	text-align: center;
+}
+
+.something {
+	margin-bottom:0;
+	font-weight:bold;
+}
+
+.connector_text {
+	font-weight:normal;
+}
+div {
+	border-radius: 1px;
+}
