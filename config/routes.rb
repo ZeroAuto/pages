@@ -1,5 +1,6 @@
 MySite::Application.routes.draw do
 
+  root "pages#index"
   get "/home" => "pages#index", as: "about"
   get "/okgamer" => "pages#okgamer", as: "okgamer"
   get "/resume" => "pages#resume", as: "resume"
