@@ -17,3 +17,10 @@
 //= require_tree .
 
 $(function(){ $(document).foundation(); });
+
+$(document).foundation('orbit', {
+  animation_speed: 500,
+  slide_number: false,
+  timer_speed: 999990000,
+  timer: false
+});
