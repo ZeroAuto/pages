@@ -52,3 +52,4 @@ end
 
 gem 'zurb-foundation'
 gem 'rails_12factor'
+gem "font-awesome-rails"
